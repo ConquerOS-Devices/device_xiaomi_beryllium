@@ -1,0 +1,55 @@
+[
+    {
+        "repository":   "device_xiaomi_sdm845-common",
+        "target_path":  "device/xiaomi/sdm845-common"
+    },
+    {
+        "repository":   "vendor_xiaomi-beryllium",
+        "target_path":  "vendor/xiaomi"
+    },
+    {
+        "remote":       "github",
+        "repository":   "PainKiller3/kernel_xiaomi_sdm845",
+        "target_path":  "kernel/xiaomi/sdm845",
+        "branch":       "eleven"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "branch":       "lineage-18.1"
+    },
+    
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom-caf/sdm845/display",
+        "branch":       "lineage-18.1-caf-sdm845"
+    },
+    
+    
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom-caf/sdm845/media",
+        "branch":       "lineage-18.1-caf-sdm845"
+    },
+    
+    
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom-caf/sdm845/audio",
+        "branch":       "lineage-18.1-caf-sdm845"
+    },
+    
+    
+        "remote":       "github",
+        "repository":   "LineageOS/android_vendor_qcom_opensource_display-commonsys-intf",
+        "target_path":  "vendor/qcom/opensource/commonsys-intf/display",
+        "branch":       "lineage-18.1"
+    },
+    {
+        "remote":      "github",
+        "repository":  "kdrag0n/proton-clang",
+        "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
+        "branch":      "master"
+    }
+]
